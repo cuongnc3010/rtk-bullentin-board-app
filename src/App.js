@@ -1,9 +1,11 @@
+import PostList from './features/posts/post-list';
+import AddPostForm from './features/posts/add-post-form';
 import './App.css';
-
 function App() {
   return (
-    <main className=''>
-      <h1>bullentin board app</h1>
+    <main className='App'>
+      <AddPostForm />
+      <PostList />
     </main>
   );
 }
